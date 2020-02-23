@@ -10,6 +10,7 @@ namespace XamarinUserLogin.views
         public UserPage()
         {
             InitializeComponent();
+            
         }
     }
 }

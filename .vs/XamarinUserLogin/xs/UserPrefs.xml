@@ -1,14 +1,31 @@
-﻿<Properties StartupConfiguration="{D7C62825-DC40-4C09-A670-5D6D20DFE956}|Default">
-  <MonoDevelop.Ide.ItemProperties.XamarinUserLogin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9CAED065-BB8C-4F7D-A315-8C52B064B9F1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinUserLogin/views/SignupPage.xaml.cs">
+﻿<Properties StartupConfiguration="{CDCA9A50-3D59-4396-843C-8A4C278841C6}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamarinUserLogin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9487F1BF-B391-489F-A083-FB0875A3BF3C" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinUserLogin/Templates/SignUpView.xaml">
     <Files>
-      <File FileName="XamarinUserLogin/views/SignupPage.xaml.cs" Line="16" Column="1" />
-      <File FileName="XamarinUserLogin/Templates/SignUpView.xaml.cs" Line="38" Column="1" />
+      <File FileName="XamarinUserLogin/Templates/SignUpView.xaml.cs" Line="77" Column="13" />
+      <File FileName="XamarinUserLogin/Templates/SignUpView.xaml" Line="202" Column="35" />
+      <File FileName="XamarinUserLogin/Templates/LoginView.xaml" Line="15" Column="23" />
+      <File FileName="XamarinUserLogin/App.xaml.cs" Line="14" Column="36" />
+      <File FileName="XamarinUserLogin/views/LoginPage.xaml" Line="17" Column="1" />
+      <File FileName="XamarinUserLogin/views/UserPage.xaml.cs" Line="14" Column="10" />
+      <File FileName="XamarinUserLogin/views/UserPage.xaml" Line="14" Column="23" />
+      <File FileName="XamarinUserLogin/views/SignupPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamarinUserLogin/views/SignupPage.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="XamarinUserLogin" expanded="True" />
+          <Node name="XamarinUserLogin" expanded="True">
+            <Node name="XamarinUserLogin" expanded="True">
+              <Node name="Templates" expanded="True">
+                <Node name="SignUpView.xaml" expanded="True" selected="True" />
+              </Node>
+              <Node name="views" expanded="True">
+                <Node name="SignupPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
