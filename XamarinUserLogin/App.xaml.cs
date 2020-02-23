@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XamarinUserLogin.views;
 
+
 namespace XamarinUserLogin
 {
     public partial class App : Application
@@ -11,7 +12,7 @@ namespace XamarinUserLogin
         {
             InitializeComponent();
 
-            MainPage = new UserPage();
+            MainPage = new HomePage();
         }
 
         protected override void OnStart()

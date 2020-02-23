@@ -1,0 +1,14 @@
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/obj/Debug/netstandard2.0/XamarinUserLogin.csprojAssemblyReference.cache
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/obj/Debug/netstandard2.0/views/HomePage.xaml.g.cs
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/obj/Debug/netstandard2.0/XamarinUserLogin.AssemblyInfoInputs.cache
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/obj/Debug/netstandard2.0/XamarinUserLogin.AssemblyInfo.cs
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/bin/Debug/netstandard2.0/XamarinUserLogin.deps.json
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/bin/Debug/netstandard2.0/XamarinUserLogin.dll
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/bin/Debug/netstandard2.0/ref/XamarinUserLogin.dll
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/bin/Debug/netstandard2.0/XamarinUserLogin.pdb
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/obj/Debug/netstandard2.0/XamarinUserLogin.dll
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/obj/Debug/netstandard2.0/ref/XamarinUserLogin.dll
+/Users/udaykumar/Documents/MyWorkSpace/XamarinUserLogin/XamarinUserLogin/obj/Debug/netstandard2.0/XamarinUserLogin.pdb
