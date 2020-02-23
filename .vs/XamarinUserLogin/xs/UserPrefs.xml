@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{D7C62825-DC40-4C09-A670-5D6D20DFE956}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamarinUserLogin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9CAED065-BB8C-4F7D-A315-8C52B064B9F1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinUserLogin/views/SignupPage.xaml.cs">
+    <Files>
+      <File FileName="XamarinUserLogin/views/SignupPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="XamarinUserLogin/Templates/SignUpView.xaml.cs" Line="38" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinUserLogin" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.XamarinUserLogin.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
