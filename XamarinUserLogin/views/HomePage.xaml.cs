@@ -19,6 +19,7 @@ namespace XamarinUserLogin.views
 
         async void SignUptapped(System.Object sender, System.EventArgs e)
         {
+
             hideProfileImageandName();
             await Task.WhenAny<bool>
             (
