@@ -3,14 +3,13 @@
     x:Class="XamarinUserLogin.views.HomePage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:panCake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
     BackgroundColor="#3A3B40"
     Visual="Material">
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" Margin="0,20,0,0">
             <Grid
                 x:Name="mainGrid"
-                Padding="30,0,30,30"
+               
                 VerticalOptions="FillAndExpand">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="0.3*" />
@@ -29,131 +28,23 @@
                     Grid.Column="0"
                     IsVisible="True"
                     VerticalOptions="FillAndExpand">
-
-                    <panCake:PancakeView
-                        x:Name="signUpbutton"
-                        Padding="35,10,35,0"
-                        BackgroundColor="#EEC9A1"
-                        CornerRadius="0,0,150,110"
-                        HeightRequest="80"
-                        HorizontalOptions="StartAndExpand"
-                        IsVisible="True"
-                        Scale="1"
-                        TranslationX="-75"
-                        TranslationY="-40"
-                        VerticalOptions="Start"
-                        WidthRequest="180">
-
-                        <Label
-                            x:Name="Signuplabel"
-                            Margin="0"
-                            FontAttributes="Bold"
-                            FontSize="15"
-                            HorizontalOptions="CenterAndExpand"
-                            HorizontalTextAlignment="Center"
-                            Rotation="0"
-                            Text="Signup"
-                            TextColor="White"
-                            VerticalOptions="CenterAndExpand" />
-                    </panCake:PancakeView>
-                    <panCake:PancakeView
-                        x:Name="loginbtn"
-                        Padding="35,10,35,0"
-                        BackgroundColor=" #7887C6"
-                        CornerRadius="0,0,150,110"
-                        HeightRequest="80"
-                        HorizontalOptions="StartAndExpand"
-                        IsVisible="True"
-                        Rotation="0"
-                        Scale="1"
-                        TranslationX="-120"
-                        TranslationY="-25"
-                        VerticalOptions="Start"
-                        WidthRequest="180">
-                        <panCake:PancakeView.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="loginTapped" />
-                        </panCake:PancakeView.GestureRecognizers>
-                        <Label
-                            x:Name="loginlabel"
-                            Margin="0"
-                            FontAttributes="Bold"
-                            FontSize="15"
-                            HorizontalOptions="CenterAndExpand"
-                            HorizontalTextAlignment="Center"
-                            Rotation="0"
-                            Text="Login"
-                            TextColor="White"
-                            VerticalOptions="CenterAndExpand" />
-                    </panCake:PancakeView>
+                     <Label  x:Name="loginbtn" TextColor="White" HorizontalOptions="Fill" Padding="50,30,0,0" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" TranslationY="-20"   BackgroundColor=" #7887C6" Text="Login">
+                        <Label.Clip>
+                            <EllipseGeometry Center="90,0" RadiusX="90" RadiusY="70"/>
+                        </Label.Clip>
+                         <Label.GestureRecognizers>
+                             <TapGestureRecognizer Tapped="loginTapped"/>
+                         </Label.GestureRecognizers>
+                    </Label>
+                    <Label  x:Name="signUpbutton" TextColor="White"  Padding="50,30,0,0"  HorizontalTextAlignment="Start" VerticalTextAlignment="Start" TranslationY="-20"  TranslationX="-30"   BackgroundColor="#EEC9A1" Text="Signup">
+                        <Label.Clip>
+                            <EllipseGeometry Center="90,0" RadiusX="90" RadiusY="70"/>
+                        </Label.Clip>
+                         <Label.GestureRecognizers>
+                             <TapGestureRecognizer Tapped="SignUptapped"/>
+                         </Label.GestureRecognizers>
+                    </Label>
                 </Grid>
-                <Grid
-                    x:Name="signupGrid"
-                    Grid.Row="0"
-                    Grid.Column="0"
-                    IsVisible="False">
-
-                    <panCake:PancakeView
-                        x:Name="loginbtn2"
-                        Padding="35,10,35,0"
-                        x:FieldModifier="public"
-                        BackgroundColor=" #7887C6"
-                        CornerRadius="0,0,150,110"
-                        HeightRequest="80"
-                        HorizontalOptions="StartAndExpand"
-                        Scale="1"
-                        TranslationX="-120"
-                        TranslationY="-25"
-                        VerticalOptions="Start"
-                        WidthRequest="180">
-                        <panCake:PancakeView.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="loginTapped" />
-                        </panCake:PancakeView.GestureRecognizers>
-                        <Label
-                            x:Name="loginlabel2"
-                            Margin="0"
-                            FontAttributes="Bold"
-                            FontSize="15"
-                            HorizontalOptions="FillAndExpand"
-                            HorizontalTextAlignment="Center"
-                            Rotation="0"
-                            Text="Login"
-                            TextColor="White"
-                            VerticalOptions="CenterAndExpand" />
-                    </panCake:PancakeView>
-
-                    <panCake:PancakeView
-                        x:Name="signUpbutton2"
-                        Padding="35,10,35,0"
-                        x:FieldModifier="public"
-                        BackgroundColor="#EEC9A1"
-                        CornerRadius="0,0,150,110"
-                        HeightRequest="80"
-                        HorizontalOptions="StartAndExpand"
-                        IsVisible="True"
-                        Scale="1"
-                        TranslationX="-75"
-                        TranslationY="-40"
-                        VerticalOptions="Start"
-                        WidthRequest="180">
-                        <panCake:PancakeView.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="SignUptapped" />
-                        </panCake:PancakeView.GestureRecognizers>
-                        <Label
-                            x:Name="Signuplabel2"
-                            Margin="0"
-                            FontAttributes="Bold"
-                            FontSize="15"
-                            HorizontalOptions="FillAndExpand"
-                            HorizontalTextAlignment="Center"
-                            Rotation="0"
-                            Text="Signup"
-                            TextColor="White"
-                            VerticalOptions="CenterAndExpand" />
-                    </panCake:PancakeView>
-
-                </Grid>
-
-
                 <Frame
                     x:Name="profileImage"
                     Grid.Row="0"
@@ -195,6 +86,7 @@
                     x:FieldModifier="public"
                     HorizontalOptions="Start"
                     Spacing="40"
+                    Padding="30,30,10,30"
                     TranslationY="-45"
                     VerticalOptions="FillAndExpand"
                     WidthRequest="0">
@@ -245,6 +137,7 @@
                     HorizontalOptions="Start"
                     IsVisible="True"
                     Spacing="40"
+                  Padding="30,30,10,30"
                     TranslationY="-30"
                     VerticalOptions="FillAndExpand"
                     WidthRequest="0">
